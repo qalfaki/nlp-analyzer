@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EC7777;
+}
+
+#title {
+  font-size: 1.3em;
+  text-align: center;
+  color: #fff;
+}
+
+#reviewForm {
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+#reviewForm #review {
+  width: 23em;
+  border-radius: 3em;
+  padding: 1em;
+}
+
+#reviewForm #review:focus {
+  border-color: #00367c;
+  box-shadow: 2em;
+  outline: none;
+}
+
+#emojiSection {
+  text-align: center;
+}
