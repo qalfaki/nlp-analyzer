@@ -14,7 +14,6 @@ const submitReview = (e) => {
   fetch('/api/nlp/s-analyzer', options)
     .then(res => res.json())
     .then (({ analysis }) => {
-      console.log("data ", analysis)
       if (analysis < 0) {
         emojiSection.innerHTML = '<img src="https://img.icons8.com/emoji/96/000000/angry-face.png">';
         title.style.color = 'red';
